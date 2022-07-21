@@ -1,8 +1,5 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
+/* Author: Dagwan Pan'an Danladi
 */
 (function() {
   "use strict";
@@ -45,7 +42,7 @@
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
-    let position = window.scrollY + 200
+    let position = window.scrollY + 250
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
       let section = select(navbarlink.hash)
@@ -135,9 +132,9 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 150,
+      backSpeed: 100,
+      backDelay: 1500
     });
   }
 
@@ -160,7 +157,7 @@
 
   /**
    * Porfolio isotope and filter
-   */
+   
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -186,18 +183,18 @@
       }, true);
     }
 
-  });
+  });*/
 
   /**
    * Initiate portfolio lightbox 
-   */
+   
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
   /**
    * Portfolio details slider
-   */
+   
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -210,7 +207,7 @@
       type: 'bullets',
       clickable: true
     }
-  });
+  });*/
 
   /**
    * Testimonials slider
