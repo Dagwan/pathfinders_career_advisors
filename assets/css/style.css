@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 350px;
+  margin-left: 330px;
 }
 
 @media (max-width: 1199px) {
@@ -123,6 +123,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 300px) and (max-width: 780px) {
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+  }
+
+  
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
