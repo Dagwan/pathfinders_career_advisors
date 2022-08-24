@@ -122,21 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
-/*
-@media (min-width: 300px) and (max-width: 780px) {
-  body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
-  }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-
-  }
-
-  
-}*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -182,19 +168,19 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
+  font-size: 35px;
+  font-weight: bold;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #03045e;
+  /*background-color: #03045e;*/
   color: white;
   font-weight: bold;
   width: 40px;
   height: 40px;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   line-height: 0;
-  border-radius: 50px;
+  border-radius: 70px;
   cursor: pointer;
 }
 
@@ -287,19 +273,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: auto;
   }
 
-  div ul li{
+.resume-item ul li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
     margin: auto;
     padding: auto;
   }
 
-.resume-item pb-0 {
-    font-size: 12px;
-  }
-.bi bi-envelope {
-  font-size: 12px;
-}
 }
 
 /*--------------------------------------------------------------
