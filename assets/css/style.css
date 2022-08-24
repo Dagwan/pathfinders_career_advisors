@@ -293,6 +293,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     padding: auto;
   }
+
+.resume-item pb-0 {
+    font-size: 12px;
+  }
+.bi bi-envelope {
+  font-size: 12px;
+}
 }
 
 /*--------------------------------------------------------------
