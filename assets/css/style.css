@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   color: aliceblue;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #hero p span {
@@ -242,11 +242,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 700px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 24px;
     margin-bottom: 30px;
   }
