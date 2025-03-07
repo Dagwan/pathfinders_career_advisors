@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: aliceblue;
+  color: #040b14;
   text-decoration: none;
 }
 #header .profile .social-links a {
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(2, 6, 11, 0.7);
+  background: rgba(2, 6, 11, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 36px;
-  color: #f4f6fd;
+  color: #040b14;
   
 }
 #hero p {
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #hero p span {
-  color: aliceblue;
+  color: #040b14;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 4px solid #e9c46a;
